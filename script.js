@@ -25,7 +25,7 @@ const Menu = props => {
     React.createElement("a", { href: "#projects", onClick: props.toggleMenu }, "CÓDIGO OPEN")),
 	
 	React.createElement("li", null,
-    React.createElement("a", { href: "https://j6q00k.stackhero-network.com/dashboard", onClick: props.toggleMenu }, "DASHBOARD")),
+    React.createElement("a", { href: "https://msuqmf.stackhero-network.com/dashboard/#!/0?socketid=x7Df7TD3k3sLH_uCAADA", onClick: props.toggleMenu }, "DASHBOARD")),
 
 
 
@@ -90,7 +90,7 @@ const Header = props => {
     React.createElement("div", { className: "buttons" },
     React.createElement("a", { href: "#about" }, "Robot"),
 	//React.createElement("a", { href: "#projects" }, "dashboard CO2"),
-    React.createElement("a", { href: "https://drive.google.com/file/d/16V6TZVyw0YlkwvihzWAEn-yg8YaoaTMb/view", className: "cta" }, "Video presentación")))));
+    React.createElement("a", { href: "https://drive.google.com/file/d/1aaYtfwmnX34ymo7lyAnXAnSKJ8SUW5_M/view?usp=sharing", className: "cta" }, "Video presentación")))));
 
 
 
@@ -145,7 +145,7 @@ const About = props => {
     React.createElement("p", null, "Para prevenir el Covid-19 en el aula, es esecial la buena ventilación. No podemos detectar el virus en el aire, pero podemos medir el ",
     React.createElement("u", null, "nivel de CO2"), 
 	' ',	
-	React.createElement("a", { href: "https://j6q00k.stackhero-network.com/dashboard", target: "_blank", rel: "noopener noreferrer", }, "con este Dashboard"), " para saber cuando debemos ventilar. Esto es especialmente útil para los lugares muy fríos en los que no es posible tener las ventanas abiertas todo el tiempo."),
+	React.createElement("a", { href: "https://msuqmf.stackhero-network.com/dashboard/#!/0?socketid=x7Df7TD3k3sLH_uCAADA", target: "_blank", rel: "noopener noreferrer", }, "con este Dashboard"), " para saber cuando debemos ventilar. Esto es especialmente útil para los lugares muy fríos en los que no es posible tener las ventanas abiertas todo el tiempo."),
 
 
 
@@ -225,7 +225,7 @@ const Projects = props => {
     React.createElement("p", { className: "subtitle" }, "Aquí hay una descripción de los ",
     React.createElement("u", null, "principales"), "  componentes del proyecto y en",
     ' ',
-    React.createElement("a", { href: "https://www.tactizity.com/", target: "_blank", rel: "noopener noreferrer" }, "Tactizity"), ", se pueden encontrar las tareas desarrolladas por los alumnos de IMH.")),
+    React.createElement("a", { href: "https://www.tactizity.com/", target: "_blank", rel: "noopener noreferrer" }, "Tactizity"), ", se pueden encontrar las tareas desarrolladas por los alumnos del máster universitario en Fabricación digital de la Escuela de Ingeniería Dual del IMH.")),
 
 
 
